@@ -1,0 +1,1844 @@
+*{
+	margin: 0px; 
+	padding: 0px; 
+	text-decoration: none; 
+	
+}
+
+.body-1 {
+	
+	background: #fff; 
+}
+
+.header-1 {
+	
+	width: 100%; 
+	background-image: url('logo/back-1.jpg');
+	background-size: cover;
+	
+	
+	
+	
+}
+
+.mobile-logo {
+	
+	margin: 0 auto; 
+	display: block; 
+	padding: 10px; 
+	line-height: 70px; 
+	
+	
+	
+}
+
+nav ul {
+	display: block; 
+	margin: 0 auto; 
+	text-align: center; 
+	 
+	
+	
+}
+
+nav ul li{
+	
+	list-style: none; 
+	display: inline-block; 
+	margin: 15px; 
+}
+
+nav ul li a{
+	
+	font-family: 'Open Sans' , sans-serif; 
+	font-size: 15px; 
+	
+	
+}
+
+nav ul li a:hover{
+	
+	text-decoration: block; 
+	
+}
+
+.register {
+	
+	display: none; 
+}
+
+.mobile-section-1 {
+	width: 100%; 
+    height: calc(100vh - 150px); 	
+	background-image: url('img/back-2.jpg');
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover; 
+	top: 0; 
+	
+}
+
+.mobile-section-2 div{
+	
+	margin: 16px 16px 0; 
+	width: calc(100% - 32px); 
+	background-color: #f3f3f3; 
+	height: 100px; 
+	
+	
+}
+
+.mobile-section-2 a div h2{
+	
+	font-family: 'Cabin' , sans-serif; 
+    margin: 0 auto; 
+    text-align: center; 
+    line-height: 100px; 
+    text-decoration: none; 
+    font-size: 15px; 
+	text-transform: uppercase; 
+	font-weight: 600; 
+	color: #111; 
+	
+     	
+	
+	
+}
+
+.mobile-footer-1 {
+	
+	width: 100%; 
+	background: #111; 
+	margin-top: 30px; 
+	overflow: hidden; 
+	height: 200px; 
+	
+	
+}
+
+.footer-links {
+	
+	display: block; 
+	float: left; 
+	margin-top: 40px; 
+	margin-left: 20px; 
+}
+
+.footer-links li{
+	
+	list-style: none; 
+	padding: 5px;  
+	
+}
+
+.footer-links li a{
+	
+	color: #fff; 
+	font-family: 'Open Sans' , sans-serif; 
+	font-size: 15px; 
+	
+	
+}
+
+
+.footer-links li a:hover{
+
+color: #f2f2f2; 
+	
+	
+}
+.footer-logo {
+	
+	margin: 0 auto; 
+	text-align: center; 
+	margin-top: 25px; 
+	
+}
+
+
+@media only screen and (min-width: 1000px) {
+	
+	
+#mobile-desktop {
+	
+	display: none; 
+}
+
+.body-1  {
+	
+	background-image:  url('logo/back-1.jpg'); 
+	background-size: cover; 
+	height: 100%; 
+}
+
+.header-1 {
+	
+	width: 100%; 
+	background-image: url('logo/back-1.jpg');
+	background-size: cover;
+	bottom: 0; 
+	
+	
+	
+}
+
+.mobile-logo {
+	
+	 
+	float: left; 
+	margin: 20px 20px; 
+	display: block; 
+	padding: 10px; 
+	line-height: 70px; 
+	
+	
+	
+}
+
+nav ul {
+	display: block; 
+	margin: 0;
+    float: left; 	
+	text-align: left; 
+	margin-top: 30px; 
+	margin-left: 60px; 
+	
+	
+	
+}
+
+nav ul li{
+	
+	list-style: none; 
+	display: inline-block; 
+	margin: 15px; 
+	width: 120px;
+    height: 50px; 	
+	
+}
+
+nav ul li a{
+	
+	font-family: 'Open Sans' , sans-serif; 
+	font-size: 16px;
+    text-transform: uppercase; 
+    color: #808080; 	
+	padding: 15px; 
+	
+	
+}
+
+nav ul li a:hover{
+	
+	color: #111; 
+	
+}
+
+.register {
+	
+	display: block; 
+	float: right; 
+	text-align: right; 
+	margin: 45px 40px 0px 0px; 
+	text-decoration: underline; 
+	
+}
+
+.register:hover {
+	
+	display: block; 
+	float: right; 
+	text-align: right; 
+	margin: 45px 40px 0px 0px; 
+	text-decoration: none; 
+	
+}
+
+/* Heder gotov za pocetnu stranicu bez sesije  */ 
+
+
+/* stilizovanje pocetne stranice i login forme */ 
+
+#container {
+	
+	min-height: 100%; 
+	
+	
+}
+
+#main {
+	
+	padding-top: 100px; 
+	overflow: auto; 
+	padding-bottom: 100px; 
+	width: 100%; 
+	
+	
+}
+
+
+.kfc-promo {
+	
+	margin: 0 auto; 
+	text-align: center; 
+	margin-bottom: 40px; 
+	 
+	
+	
+	
+	
+}
+
+.kfc-promo img{
+	
+	width: 150px; 
+	margin-bottom: 10px; 
+	
+	
+	
+}
+
+
+
+
+
+
+/* Stilizovanje register forme */
+.register-1 {
+	
+	width: 900px; 
+	margin: 0 auto; 
+	
+	
+	
+	
+}
+
+.submit {
+	
+	width: 100px; 
+	height: 35px; 
+	border: 0px; 
+	background-color:  #8b0000 ; 
+	color: #fff; 
+	margin-top: 30px; 
+	
+	
+	
+}
+
+.submit:hover{
+	
+	background-color: #4d0000  ; 
+	
+	
+	
+}
+
+input[type="text"] , input[type="password"] {
+	
+	height: 25px; 
+	width: 200px; 
+	border: 1px solid #a6a6a6; 
+	border-radius: 3px; 
+	
+}
+
+.register-row {
+	
+	width: 80%; 
+	margin: 0 auto; 
+	margin-left: 310px; 
+	
+	
+	
+}
+
+.register-row::after {
+	
+	content: " . "; 
+    visibility: hidden; 
+    clear: both; 
+    display: block; 	
+	
+	
+}
+
+.register-label {
+	
+	width: 20%; 
+	float: left; 
+	font-family: 'Cabin' , sans-serif; 
+	font-weight: 600; 
+	color: #808080; 
+	
+	
+	
+}
+
+.register-input {
+	
+	width: 60%; 
+	float: left; 
+	
+	
+	
+	
+	
+}
+
+.register-label-1 {
+	
+	width: 15%; 
+	float: left; 
+	font-family: 'Cabin' , sans-serif; 
+	font-weight: 600; 
+	color: #808080; 
+	
+	
+	
+}
+
+.register-input-1{
+	
+	width: 60%; 
+	float: left; 
+	
+	
+	
+	
+	
+}	
+	
+.register-label-2 {
+	
+	width: 45%; 
+	float: left; 
+	font-family: 'Cabin' , sans-serif; 
+	font-weight: 600; 
+	color: #808080; 
+	
+	
+	
+}
+
+.register-input-2{
+	
+	width: 10%; 
+	float: left; 
+	
+	
+	
+	
+	
+}
+
+.register-label-3 {
+	
+	width: 20%; 
+	float: left; 
+	font-family: 'Cabin' , sans-serif; 
+	font-weight: 600; 
+	color: #808080; 
+	
+	
+	
+}
+
+select {
+	
+	height: 25px; 
+	width: 50px; 
+	
+	 
+}
+
+.register-input-3{
+	
+	width: 40%; 
+	float: left; 
+	height: 25px; 
+	
+	
+	
+}		
+
+.login-link	{
+	
+	margin: 0 auto; 
+	text-align: center; 
+	width: 300px; 
+	margin-top: 30px; 
+	
+	
+}
+
+.register-logo {
+	
+	margin: 0 auto; 
+	text-align: center; 
+	margin-top: 10px;
+	margin-bottom: 40px; 
+	 
+	
+	
+	
+	
+}
+
+.register-logo img{
+	
+	width: 150px; 
+	margin-bottom: 10px; 
+	
+	
+	
+}
+
+.register-logo h2{
+	
+  font-family: 'Fugaz One', cursive;
+   font-size: 22px; 
+  
+   color: #e60000;
+   
+	margin-left: 16px;
+   margin-top: 0px; 
+	
+}
+
+
+.register-php {
+	
+	width: 50%; 
+	margin: 0 auto; 
+	font-family: 'Open Sans' , sans-serif; 
+	color: #808080; 
+	margin-left: 570px; 
+	margin-bottom: 20px; 
+	padding: 5px; 
+	
+	display: block; 
+	
+	
+	
+}
+/* Stilizovanje register forme zavrseno */
+
+/* Stilizovanje login forme*/
+
+.login-1 {
+	
+	width: 900px; 
+	margin: 0 auto; 
+	
+	
+	
+	
+}
+
+.submit {
+	
+	width: 100px; 
+	height: 35px; 
+	border: 0px; 
+	background-color:  #8b0000 ; 
+	color: #fff; 
+	margin-top: 30px; 
+	
+	
+	
+}
+
+.submit:hover{
+	
+	background-color: #4d0000  ; 
+	
+	
+	
+}
+
+input[type="text"] , input[type="password"] {
+	
+	height: 25px; 
+	width: 200px; 
+	border: 1px solid #a6a6a6; 
+	border-radius: 3px; 
+	
+}
+
+.login-row {
+	
+	width: 80%; 
+	margin: 0 auto; 
+	margin-left: 310px; 
+	
+	
+	
+}
+
+.login-row::after {
+	
+	content: " . "; 
+    visibility: hidden; 
+    clear: both; 
+    display: block; 	
+	
+	
+}
+
+.login-label {
+	
+	width: 20%; 
+	float: left; 
+	font-family: 'Cabin' , sans-serif; 
+	font-weight: 600; 
+	color: #808080; 
+	
+	
+	
+}
+
+.login-input {
+	
+	width: 60%; 
+	float: left; 
+	
+	
+	
+	
+	
+}
+
+
+	
+
+.register-link	{
+	
+	margin: 0 auto; 
+	text-align: center; 
+	width: 300px; 
+	margin-top: 30px; 
+	
+	
+}
+
+.kfc-promo h2{
+	
+  font-family: 'Fugaz One', cursive;
+   font-size: 22px; 
+  
+   color: #e60000;
+   
+	
+	
+}
+
+
+.login-php {
+	
+	width: 50%; 
+	margin: 0 auto; 
+	font-family: 'Open Sans' , sans-serif; 
+	color: #808080; 
+	margin-left: 570px; 
+	margin-bottom: 20px; 
+	padding: 5px; 
+	
+	display: block; 
+	
+	
+	
+}
+
+/* Stilizovanje login forme zavrseno */
+
+/* Stilizovanje futera */
+.footer-1 {
+	
+	clear: both; 
+	position: relative; 
+    background: #fff; 
+	height: 120px; 
+	width: 100%; 
+}
+
+.footer-1 ul{
+	
+	margin: 0 auto; 
+	display: block; 
+	text-align: center; 
+	margin-left: 300px; 
+	margin-top: 10px; 
+	
+	
+}
+
+.footer-1 ul li{
+	
+	list-style: none; 
+	display: inline-block; 
+	
+	
+}
+
+.footer-1 ul li a{
+	
+	text-transform: uppercase; 
+	color: #808080; 
+	font-family: 'Open Sans' , sans-serif; 
+	font-size: 13px; 
+	
+	
+}
+
+.footer-1 ul li a:hover{
+	
+	
+	
+}
+
+.copy-1 {
+	
+	background: #fff; 
+	width: 100%; 
+	height: 40px; 
+	
+	
+}
+
+.copy-1 h2 {
+	
+ color: #808080; 
+ margin: 0 auto; 
+ text-align: center; 
+ font-family: 'Open Sans' , sans-serif; 
+ font-weight: 500; 
+ font-size: 14px; 
+	
+	
+}	
+
+/* Stilizovanj futera zavrseno */
+
+/* Stilizovanje fajla history */
+
+
+.history-1 {
+	
+	width: 55%; 
+	float: left; 
+	background-color: #fff; 
+	margin-left: 60px;
+    margin-top: 10px; 	
+	
+	
+	
+	
+}
+
+.history-1 img{
+	
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	
+	
+	
+}
+
+.history-1 p{
+	
+	color: #a0522d ; 
+	font-family: 'Fugaz One' , cursive ; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	
+	
+}
+
+.history-naslov-1 {
+	
+	margin: 0 auto; 
+	display: block; 
+	text-align: center; 
+	font-family: 'Bad Script' , cursive; 
+	text-transform: uppercase; 
+	color: #a0522d; 
+	font-weight: 500; 
+	margin-top: 0px; 
+	margin-left: 110px; 
+	margin-bottom: 50px; 
+	
+}
+
+
+.history-1-1 {
+	
+	width: 30%; 
+	float: right; 
+	background-color: #fff; 
+	margin-right: 60px;
+    margin-top: 10px; 	
+	border: 1px solid #f2f2f2; 
+	border-radius: 3px; 
+	
+	
+	
+}
+
+.history-1-1 img {
+	
+	margin: 0 auto; 
+text-align: center; 
+display: block; 
+width: 365px; 
+padding: 10px; 
+margin-top: 10px;  	
+	
+	
+	
+	
+}
+
+
+
+.history-1-1 h2 {
+	
+  	color: #111 ; 
+	font-family: 'Coustard' , cursive ; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px;
+	
+	
+	
+	
+}
+
+.history-1-1 p {
+	
+    color: #111 ; 
+	font-family: 'Coustard' , cursive ; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px;
+	font-weight: 500; 
+	
+	
+}
+
+
+.history-1-2 {
+	
+	width: 30%; 
+	float: right; 
+	background-color: #fff; 
+	margin-right: 60px;
+    margin-top: 70px; 	
+	border: 1px solid #f2f2f2; 
+	border-radius: 3px; 
+	
+	
+	
+}
+
+.history-1-2 h3{
+	
+	   color: #111 ; 
+	font-family: 'Open Sans' , sans-serif ; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px;
+	font-weight: 500; 
+	
+	
+	
+}
+
+.history-1-2 p{
+	
+	   color: #111 ; 
+	font-family: 'Open Sans' , sans-serif ; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px;
+	font-weight: 500; 
+	
+	
+	
+}
+/* Stilizovanje fajla history zavrseno*/
+
+
+/* Stilizovanje fajla Zasto se registrovati  */
+
+.why-1 {
+	
+	width: 55%; 
+	float: left; 
+	background-color: #fff; 
+	margin-left: 60px;
+    margin-top: 10px; 	
+	
+	
+	
+	
+}
+
+.why-1 h2{
+	
+	margin: 0 ; 
+	
+	
+	display: block; 
+	font-family: 'Open Sans' , sans-serif ;
+	font-weight: 500; 
+	margin-left: 20px; 
+	color: #111; 
+	font-size: 35px; 
+	padding: 15px; 
+	margin-top: 10px; 
+	
+	
+}
+
+.why-1 h3{
+	
+	margin: 0 ; 
+	display: block; 
+	margin-left: 20px; 
+	font-family: 'Open Sans' , sans-serif ;
+	font-weight: 500; 
+	color: #111; 
+	padding: 15px; 
+	font-size: 22px; 
+	
+}
+
+.why-1 p{
+	
+	color: #111 ; 
+	font-family: 'Open Sans' , sans-serif ;
+	font-weight: 500; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	padding: 15px; 
+	
+	
+}
+
+
+
+
+.why-1-1 {
+	
+	width: 30%; 
+	float: right; 
+	background-color: #fff; 
+	margin-right: 60px;
+    margin-top: 10px; 	
+	border: 1px solid #f3f3f3; 
+	border-radius: 3px; 
+	
+	
+	
+}
+
+
+
+
+
+.why-1-1 h2 {
+	
+  	margin:0 auto; 
+	text-align: center; 
+	display: block; 
+	font-family: 'Bad Script' , cursive;
+	font-weight: 500; 
+	color: #a0522d; 
+	font-size: 31px; 
+	padding: 15px; 
+	margin-top: 10px; 
+	
+	
+	
+	
+}
+
+.why-1-1 p {
+	
+  color: #111 ; 
+	font-family: 'Ovo' , serif ;
+	font-weight: 500; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	padding: 5px; 
+	
+	
+	
+}
+.onama-link {
+	
+	margin-bottom: 35px; 
+	float: right; 
+	margin-right: 30px; 
+	
+	
+}
+
+.no-submit {
+	
+	color: blue; 
+	background: #fff; 
+	border: 0px; 
+	text-decoration: underline; 
+	
+}
+
+/*  zASTO SE REGISTROVATI fajl je zavrsen  */
+
+/* Stilizovanje errora*/
+
+.error-1 {
+	
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	
+	
+}
+.error-1 h2{
+	
+	font-family: 'Open Sans' , sans-serif;
+    color: #808080; 
+    font-weight: 500; 
+    font-size: 25px; 
+    	
+	
+	
+}
+.error-1 p{
+	
+	font-family: 'Open Sans' , sans-serif;
+    color: #808080; 
+    font-weight: 500; 
+    
+	
+	
+}
+
+/* Stilizovanje errora zavrseno*/
+
+/*   Stilizovanje afterregister*/
+
+
+.after {
+	
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	font-family: 'Open Sans' , sans-serif;
+    color: #808080; 
+    font-weight: 500; 
+    font-size: 27px; 
+	
+}
+
+
+/*  Stilizovanje fajla onama */
+
+.onama-naslov {
+	
+	
+	margin: 0 auto; 
+	display: block; 
+	text-align: center; 
+	font-family: 'Bad Script' , cursive; 
+	text-transform: uppercase; 
+	color: #a0522d; 
+	font-weight: 500; 
+	font-size: 33px ; 
+	
+	
+}
+
+.onama {
+	
+	
+	width: 950px; 
+	margin: 0 auto; 
+	display: block; 
+	background: #fff; 
+	
+	
+}
+
+.onama p{
+	
+	
+	color: #111 ; 
+	font-family: 'Ovo' , serif ;
+	font-weight: 500; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	 
+	
+	padding: 35px; 
+	
+}
+/*  Zavrsena stranica bez sesije    */
+
+
+/*Stilizovanje stranice nakon sesije */
+
+
+
+
+.session-header-1 img{
+	
+ 
+	float: left; 
+	width: 130px; 
+	margin-left: 40px ; 
+	height: 140px; 
+	
+	
+	
+}
+
+
+
+.session-header-1 {
+	
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	position: fixed; 
+	background-image: url('logo/back-1.jpg') !important ; 
+	width: 100%; 
+	display: block; 
+	height: 95px; 
+	
+	
+		
+	
+}
+
+
+
+
+.session-header-1 nav ol {
+	
+	margin: 0; 
+	float: left; 
+	margin-left: 75px; 
+	margin-top: 0px; 
+	
+	
+	
+	
+}
+
+.session-header-1 nav ol li {
+	
+	float: left; 
+	list-style: none; 
+	padding-right: 33px;
+    padding-top: 10px; 	
+	position: relative
+
+}
+
+.session-header-1 nav ol li a{
+	
+    font-family: 'Poor Story', cursive;
+	font-size: 15px; 
+	text-transform: uppercase; 
+	color:  #70380f; 
+	
+	
+	
+	
+	
+	
+}
+
+.session-header-1 nav ol li a:hover{
+	
+	color: #9d4e15; 
+	
+	
+}
+
+
+.session-header-1 nav ol li ol{
+	
+	display: none !important; 
+	background-color:  #9d4e15  ;
+	position: absolute; 
+	display: block; 
+	border-radius: 0px 0px 4px 4px; 
+	margin-left: 0px; 
+	margin-top: 0px !important; 
+}
+
+.session-header-1 nav ol li:hover ol{
+	
+	display: block !important; 
+	
+}
+
+.session-header-1 nav ol li ol li{
+	
+	width: 180px; 
+	
+	
+	
+}
+
+.session-header-1 nav ol li ol li a{
+	
+	font-family: 'Poor Story', cursive;
+	font-size: 15px; 
+	text-transform: uppercase; 
+	color:  #fff; 
+	margin: 0 auto; 
+    text-align: center; 	
+	display: block; 
+	padding: 5px; 
+	margin-left: 29px; 
+	margin-bottom: 10px; 
+}
+
+.session-header-1 nav ol li ol li a:hover{
+	
+	background-color: #fff; 
+	color: #9d4e15;
+	
+	
+}
+
+
+
+.computer-desktop-2{
+	
+	background: #fff; 
+	 
+}
+
+.id-name {
+	
+	width: 100%; 
+	height: 35px; 
+	
+	background-image: url('logo/back-1.jpg') !important ; 
+	
+	
+	
+}
+
+.id-name-1 ul{
+	
+    float: right;  
+	margin-right: 53px;
+    margin-top: 0px; 	
+	display: block; 
+	 
+	
+	
+}
+
+.id-name-1 ul li{
+	
+      
+	 list-style: none; 
+	 font-family: 'Open Sans' , sans-serif; 	 
+	 margin-left: 5px; 
+	 float:right; 
+	 position: relative; 
+	
+}
+
+
+.id-name-1 ul li p{
+	
+      
+	 font-family: 'Fugaz One', cursive;
+	 text-transform: uppercase; 
+	 font-size: 11px; 
+     font-size: 15px; 
+	 margin-left: 5px; 
+	 padding: 10px; 
+	 display: block;
+     background: #fff; 	 
+	 color: #cc0000; 
+}
+
+.id-name-1 ul li p:hover{
+	
+      background: #fff; 
+	
+}
+
+
+.id-name-1 ul li ul{
+	
+	 display: none; 
+	 position: absolute; 
+	 background: #fff; 
+	 padding: 11px;
+     margin-left: 5px; 
+     border-radius: 0px 0px 4px 4px; 	 
+}
+
+.id-name-1 ul li:hover ul{
+	
+	 display: block; 
+	 	 
+}
+
+
+.id-name-1 ul li ul li{
+	
+	width: 100px; 
+	border-radius: 4px; 
+	padding: 10px; 
+}
+
+.id-name-1 ul li ul li a{
+	
+	 font-family: 'Open Sans' , sans-serif; 
+	 color: #111; 
+	 padding: 8px 14px; 
+	 font-size: 15px; 
+	 
+}
+
+.id-name-1 ul li ul li a:hover{
+	
+	background-color: #f3f3f3;  
+	 
+}
+
+.session-header-1 nav ul{}
+
+
+
+/* Stilizovanje hedera je konacno zavrseno */
+
+
+/* Stilizocanje stranice*/
+.main {
+	
+	padding-top: 40px; 
+	display: block; 
+	
+}
+.section {
+	
+	overflow: hidden; 
+	display: block; 
+	width: 1400px;
+	height:510px; 
+	
+}
+
+
+
+.section img{
+	
+	 
+	width: 100%; 
+	height: 510px; 
+	margin-top:5px; 
+	
+	
+}
+.section-1 {
+	
+	display: block; 
+	margin-bottom: 10px; 
+	
+}
+.section-1 h1 {
+	
+	
+	background-image: url('logo/back-1.jpg');
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 35px; 
+	font-weight: 500; 
+	margin: 0 auto; 
+	text-align: center; 
+	display: block; 
+	background-color:  #eadbc8; 
+	margin-bottom: 50px; 
+	text-transform: uppercase; 
+	height: 100px; 
+	line-height: 100px; 
+	color: #936c39; 
+	
+}
+
+.kfc-kofe {
+	
+	width: 900px; 
+	margin: 0 auto; 
+	display: block; 
+	height: 500px; 
+}
+
+.section-2 {
+	
+	width: 45%; 
+	float: left; 
+	height: 300px; 
+	
+}
+
+.section-2 img{
+	
+	display: block; 
+	margin: 0 auto; 
+	text-align: center; 
+	margin-right: 20px; 
+	
+}
+
+.section-2 .kfc-kofa{
+	
+    background-color:  #936c39 ; 
+	height: 160px; 
+	
+}
+
+.kfc-kofa {
+	
+    color: #fff; 
+    font-family: 'Neucha' , cursive ; 
+    font-size: 18px; 
+    margin: 0 auto; 
+    text-align: center; 
+    display: block; 
+    text-transform: uppercase; 	
+	line-height: 40px; 
+	
+}
+
+.kofa {
+	
+	background-color: #e2d0e2; 
+	height: 85px; 
+	font-family: 'Neucha' , cursive ; 
+    font-size: 16px; 
+	margin-bottom: 20px; 
+    display: block; 
+    padding: 19px; 	
+	
+	
+	
+	
+	
+}
+
+.section-3 {
+	
+	width: 45%; 
+	float: right; 
+	height: 300px; 
+	
+}
+
+.section-3 img{
+	
+	display: block; 
+	margin: 0 auto; 
+	text-align: center; 
+	margin-left: 20px; 
+	
+}
+
+.section-3 .kfc-kofa-1{
+	margin-top: 67px; 
+    background-color:  #936c39 ; 
+	height: 160px; 
+	
+}
+
+.kfc-kofa-1 {
+	
+	margin-top: 50px; 
+    color: #fff; 
+    font-family: 'Neucha' , cursive ; 
+    font-size: 18px; 
+    margin: 0 auto; 
+    text-align: center; 
+    display: block; 
+    text-transform: uppercase; 	
+	line-height: 40px; 
+	
+	
+}
+
+.kofa-1 {
+	
+	background-color: #e2d0e2; 
+	height: 85px; 
+	font-family: 'Neucha' , cursive ; 
+    font-size: 16px; 
+	margin-bottom: 20px; 
+    display: block; 
+    padding: 19px; 	
+	
+	
+	
+	
+	
+}
+
+#1 {
+	
+	width: 100%; 
+	margin-top: 60px; 
+	
+}
+
+.right {
+	margin-top: 180px; 
+	width: 50%; 
+	height: 300px; 
+	float:right; 
+	
+	
+}
+
+.left {
+	
+  margin-top: 180px;
+  width: 50%; 
+  float: left; 
+  height: 480px;  
+  background-color:  #f3f3f3;  
+	
+	
+}
+
+
+.left h2{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 170px;     
+   font-size: 33px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+.left p{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 10px;     
+   font-size: 19px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+
+
+
+#2 {
+	
+	width: 100%; 
+	margin-top: 60px; 
+	
+}
+
+.right-1 {
+	margin-top: 0px; 
+	width: 50%; 
+	height: 350px; 
+	float:left; 
+	margin-bottom: 20px; 
+	
+}
+
+.right-1 img {
+	 
+	margin-top: 0px; 
+	width: 100%; 
+	height: 350px; 
+	float:left; 
+	height: 380px; 
+	
+}
+
+.left-1 {
+	
+  margin-top: 180px;
+  width: 50%; 
+  float: right; 
+  height: 380px;  
+  background-color:  #f3f3f3;  
+	
+	
+}
+
+
+.left-1 h2{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 170px;     
+   font-size: 33px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+.left-1 p{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 10px;     
+   font-size: 19px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+
+#3 {
+	
+	
+	width: 100%; 
+	overflow: hidden; 
+	
+	
+	
+}
+
+#3::after {
+	
+	content: " "; 
+	visibility: none;
+    clear: both; 
+    display: block; 	
+	
+}
+
+.left-2 {
+	
+	float: left; 
+	width: 50%; 
+	text-align: left; 
+	display: block; 
+	background-color:  #f3f3f3 ;
+	height: 460px; 
+}
+
+.left-2 h2{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 170px;     
+   font-size: 33px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+.left-2 p{
+	
+   margin: 0 auto; 
+   text-align: center;
+   display: block; 
+   margin-top: 10px;     
+   font-size: 19px; 
+   font-weight: 500; 
+   font-family: 'Open Sans' , sans-serif; 
+   color: #936c39 ; 
+   
+	
+	
+}
+
+
+.right-2 {
+	
+	float: right; 
+	width: 50%; 
+	
+	
+}
+
+
+.right-2 img{
+	
+	float: right; 
+	width: 100%; 
+	height: 450px; 
+	
+}
+
+
+
+
+.footer-2 {
+	
+	background-image: url('logo/back-1.jpg');
+	height: 65px; 
+	width: 100%; 
+	border-top: 1px solid #cccccc; 
+	border-bottom: 1px solid #cccccc; 
+	overflow: hidden ; 
+	
+	
+}
+
+.footer-2 ul {
+	
+	float: left; 
+	margin-left: 40px; 
+	margin-top: 22px; 
+
+}
+
+.footer-2 ul li{
+	
+	margin-bottom: 20px; 
+	display: inline-block; 
+	list-style: none; 
+	margin-right: 30px; 
+}
+
+.footer-2 ul li a{
+	
+	color: #404040; 
+	font-family: 'Open Sans' , sans-serif; 
+	text-transform: uppercase; 
+	font-size: 14px; 
+	
+	
+	
+}
+.copy-2 {
+    background-image: url('logo/back-1.jpg');
+	height: 125px; 
+	width: 100%; 
+	overflow: hidden ; 
+	
+	
+	
+}
+
+.copy-2 img{
+    
+	float: left; 
+	margin-top: 20px ; 
+	margin-left: 40px; 
+	
+	
+	
+}
+
+.copy-2 h2{
+    
+	float: left; 
+	margin-top: 20px ; 
+	margin-left: 10px; 
+	font-family: 'Open Sans' , sans-serif ; 
+	font-size: 17px; 
+	color: #404040;
+	
+	
+	
+}
+
+.copy-2 p{
+    
+	
+	margin-top: 75px ; 
+	margin-left: 40px; 
+	font-family: 'Open Sans' , sans-serif ; 
+	font-size: 14px; 
+	color: #404040;
+	font-family: 'Poor Story', cursive;
+	font-weight: 500; 
+	
+	
+}
+
+
+.footer-session {
+	
+	
+	display: block; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
